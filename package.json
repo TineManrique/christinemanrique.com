@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "postbuild": "mv public dist/christinemanrique.com",
+    "postbuild": "mkdir dist && mv public dist/christinemanrique.com",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
