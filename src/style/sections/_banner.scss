@@ -6,7 +6,7 @@
   border-bottom: 0px;
   background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: $dark-blue;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,7 +14,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  background-image: linear-gradient(90deg, rgba(5,37,80,0.7992239131980917) 0%, rgba(9,121,95,0.8608485630580357) 53%, rgba(0, 85, 255, 0.767) 100%);
+  background-image: $gradient-background;
   // If you want to set a background image on the hero section, uncomment these with yout custom image
 
   /* background: url("/src/assets/[your-image].png");
@@ -34,7 +34,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
-    color: navajowhite;
+    color: $primary-color;
 
     @include respond(tab-land) {
       font-size: 4rem;

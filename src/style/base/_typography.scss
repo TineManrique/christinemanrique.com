@@ -28,6 +28,7 @@ a:hover {
   font-size: $big-font-size;
   font-weight: bold;
   text-transform: uppercase;
+  color: $secondary-color;
 
   @include respond(phone) {
     font-size: 2.8rem;
@@ -35,12 +36,11 @@ a:hover {
 }
 
 .dark-blue-text {
-  color: $dark-blue-text !important;
+  color: $dark-blue !important;
 }
 
 .text-color-main {
-  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  background: #333333;
+  background: $dark-grey;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 

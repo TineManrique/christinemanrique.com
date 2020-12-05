@@ -1,0 +1,11 @@
+.static-paragraph {
+  text-align: left;
+  line-height: 22px;
+  font-size: 14px;
+
+  .bold-text {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+}

@@ -1,6 +1,27 @@
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 2rem;
-    &:hover {
-        color: navajowhite;
+.navbar-background {
+    background-image: $gradient-background;
+    color: $white-color;
+}
+.navbar-expand .navbar-nav {
+    padding: 2rem 1rem;
+    margin-left: auto !important;
+    @include respond(phone) {
+        margin: auto !important;
+    }
+    .nav-item {
+        .active {
+            color: $primary-color;
+        }
+        a {
+            padding: 2rem;
+            color: $dark-grey;
+            @include respond(phone) {
+                padding: 1rem;
+            }
+
+            &:hover {
+                color: $primary-color;
+            }
+        }
     }
 }

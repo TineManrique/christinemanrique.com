@@ -1,13 +1,15 @@
 #contact {
-  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
-  // background: rgb(5,37,80);
-  background-image: linear-gradient(90deg, rgba(5,37,80,0.7992239131980917) 0%, rgba(9,121,95,0.8608485630580357) 53%, rgba(0,87,255,0.7992239131980917) 100%);
+  background-image: $gradient-background;
   -webkit-clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
   padding: 15rem 0 10rem 0;
   margin-top: -15rem;
   margin-bottom: -1px;
-  color: $white-color;
+  color: $primary-color;
+
+  .section-title {
+    color: $primary-color;
+  }
 
   @include respond(tab-land) {
     padding: 10rem 0;
