@@ -1,8 +1,10 @@
 ---
-title: My Journey on Savings And Investing
+title: My Journey on Saving And Investing
 author: Christine Manrique
 date: 2020-07-15
+image: savings.jpg
+isFinished: false
 ---
 
 ## Introduction to my blog post
-My Journey on Savings And Investing
+Starting to save and invest early is truly a life saver because you are making your future self a favor. 

@@ -28,7 +28,6 @@ const Banner = () => {
               Hi there, I'm 
               <span className="text-color-main"> Christine Manrique</span>
               <br />
-              <p>Welcome to my website</p>
             </h1>
           </Fade>
           <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">

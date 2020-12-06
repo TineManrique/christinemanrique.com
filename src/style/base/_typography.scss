@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Source+Sans+Pro');
 
 h1 {
   font-weight: 700;
@@ -6,7 +6,7 @@ h1 {
 
 p,
 a {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', Sans-Serif;
   font-size: $default-font-size;
 }
 
@@ -29,6 +29,7 @@ a:hover {
   font-weight: bold;
   text-transform: uppercase;
   color: $secondary-color;
+  font-family: 'Playfair Display', Serif;
 
   @include respond(phone) {
     font-size: 2.8rem;

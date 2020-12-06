@@ -1,6 +1,6 @@
 import React from 'react';
 import Banner from './Banner';
-import About from './About';
+import AboutPreview from './AboutPreview';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Banner/>
-      <About />
+      <AboutPreview />
       <Contact />
       <Footer />
     </>

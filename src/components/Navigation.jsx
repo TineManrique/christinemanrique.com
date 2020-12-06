@@ -19,7 +19,7 @@ function Navigation({hasNavBackground}) {
 
     return (
         <div className={!hasNavBackground ? 'navbar-background' : ''}>
-            <Fade top={isDesktop} duration={1000} delay={500} distance="30px">
+            <Fade right={isDesktop} duration={1000} delay={500} distance="30px">
                 <Navbar id="navigation">
                 {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
                 <Navbar.Collapse>

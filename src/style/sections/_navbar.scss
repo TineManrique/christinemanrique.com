@@ -1,5 +1,5 @@
 .navbar-background {
-    background-image: $gradient-background;
+    background-color: $blue;
     color: $white-color;
 }
 .navbar-expand .navbar-nav {
@@ -14,7 +14,7 @@
         }
         a {
             padding: 2rem;
-            color: $dark-grey;
+            color: $white-color;
             @include respond(phone) {
                 padding: 1rem;
             }

@@ -30,11 +30,12 @@
   }
 
   .hero-title {
-    font-size: 5.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
     color: $primary-color;
+    font-family: 'Playfair Display', Serif;
+    font-size: 48px;
 
     @include respond(tab-land) {
       font-size: 4rem;

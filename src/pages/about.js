@@ -1,18 +1,21 @@
 import React from 'react';
-import { Container } from "react-bootstrap";
+import { Helmet } from 'react-helmet';
+import About from '../components/About';
 import Footer from '../components/Footer';
 import Navigation from '../components/Navigation';
-import Title from '../components/Title';
 
 export default () => {
     return (
         <>
+        <Helmet>
+            <script type="text/javascript" async src="//cdn.youracclaim.com/assets/utilities/embed.js"></script>
+            <meta charSet="utf-8" />
+            <title>Christine Manrique | Developer</title>
+            <html lang='en'/>
+            <meta name="description" content='Portfolio | christinemanrique.com' />
+        </Helmet>
             <Navigation></Navigation>
-            <section>
-                <Container>
-                    <Title title="About Her" />
-                </Container>
-            </section>
+            <About></About>
             <Footer></Footer>
         </>
     );

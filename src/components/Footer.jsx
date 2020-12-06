@@ -21,7 +21,7 @@ const Footer = () => {
             <i className={`fa fa-github fa-inverse`} />
           </a>
           <a
-            href='www.linkedin.com/in/christinemanrique'
+            href='https://www.linkedin.com/in/christinemanrique'
             rel="noopener noreferrer"
             target="_blank"
             aria-label="linkedin"
