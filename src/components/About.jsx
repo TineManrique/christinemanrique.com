@@ -64,6 +64,8 @@ const About = () => {
                             <Card.Header>Others</Card.Header>
                             <Card.Body>
                                 <ul>
+                                    <li>Git</li>
+                                    <li>Linux/Ubuntu</li>
                                     <li>Agile Development</li>
                                     <li>Jira</li>
                                     <li>Bitbucket</li>
